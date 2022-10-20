@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - Actor
+  - 
   - 
   - 
   - 
@@ -41,9 +41,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Floor
+  - name: piso
     uniqueID: 1541398813
-    locked: 0
-  - name: Actor
-    uniqueID: 315535547
     locked: 0
