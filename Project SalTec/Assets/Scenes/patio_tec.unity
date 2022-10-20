@@ -194,8 +194,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1541398813
-  m_SortingLayer: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -3636,7 +3636,7 @@ GameObject:
   - component: {fileID: 416527556}
   - component: {fileID: 416527555}
   m_Layer: 0
-  m_Name: 16x16DungeonTileset.v4_0
+  m_Name: Player_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3655,7 +3655,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.005402902, y: -0.00028435886}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3666,7 +3666,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16, y: 0.16}
+  m_Size: {x: 0.13099498, y: 0.13895714}
   m_EdgeRadius: 0
 --- !u!114 &416527556
 MonoBehaviour:
@@ -3718,8 +3718,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 315535547
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1935796422, guid: 37f6873df65e74c4a93ee575c0dd99a5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3804,6 +3804,7 @@ GameObject:
   - component: {fileID: 1784784708}
   - component: {fileID: 1784784707}
   - component: {fileID: 1784784706}
+  - component: {fileID: 1784784709}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3877,6 +3878,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1784784709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784784705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba909e8f512a32a4287c13c6fbcf3d8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookAt: {fileID: 416527558}
+  boundX: 0.15
+  boundY: 0.15
 --- !u!1 &1800583376
 GameObject:
   m_ObjectHideFlags: 0
@@ -3948,8 +3964,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1541398813
-  m_SortingLayer: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
